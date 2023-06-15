@@ -89,3 +89,12 @@
     border: none;
     background: var(--primary-blue-color);
 }
+
+
+#mainabout{
+    position: relative;
+    top: 200px;
+}
+
+
+
