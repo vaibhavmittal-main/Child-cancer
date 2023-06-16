@@ -97,4 +97,8 @@
 }
 
 
-
+#main_footer{
+     position: relative;
+     top: 190px;
+     border: 1px solid white;
+}
