@@ -10,7 +10,6 @@
     background-color: white;
     position: fixed;
 }
-
 .navbar .logo{
     display: flex;
     justify-content: center;
@@ -42,7 +41,7 @@
 
 .navbar .links li{
     list-style: none;
-    width: 20%;
+    width: 22%;
     display: flex;
     justify-content: center;
     align-items: center;
