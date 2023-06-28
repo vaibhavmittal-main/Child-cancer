@@ -113,9 +113,9 @@ z-index: 0;
     #upper{
         display: grid;
         grid-template-columns: 100%;
-        width: 80%;
+        width: 90%;
         position: relative;
-        left: 10%;
+        left: 5%;
         /* border: 1px solid black; */
         /* font-family: 'Inter', sans-serif;
     font-family: 'Irish Grover', cursive;
@@ -157,7 +157,7 @@ z-index: 0;
         width: 100%;
         position: relative;
         left: 0%;
-        height: 950px;
+        height: 1060px;
         margin-top: -3%;
         /* z-index: 100; */
         position: absolute;
@@ -247,7 +247,7 @@ z-index: 0;
     }
     #up_img img{
         width: 100%;
-        height: auto;
+        height: 300px;
     }
     
     #lower img{
@@ -294,7 +294,6 @@ z-index: 0;
         
     }
 }
-
 @media screen and  (min-width:621px) and (max-width:750px){
     #howis{
         margin-top: 5%;
