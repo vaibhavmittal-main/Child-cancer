@@ -9,22 +9,20 @@ body{
     font-family: 'Itim', cursive;
     background-color: #F5F6F5;
     
-    /* border: 1px solid black; */
+
     width: 100%;
     /* height: 700px; */
 }
-#abt_main{
-    /* border: 1px solid red; */
-}
+
 #abt{
-    /* border: 1px solid blue; */
+    
     height: 900px;
     background: url(./../images/photoabout.png);
     background-repeat: no-repeat;
     background-size: 100% 750px;
 }
 #head{
-    border: px solid blue;
+    
     font-family: 'Irish Grover', cursive;
     color:white;
     width: fit-content;
@@ -40,7 +38,7 @@ body{
     left: 250px;
 }
 #info{
-    /* border: 1px solid red; */
+    
     margin-top: 100;
     width:90%;
     position: relative;
@@ -50,7 +48,7 @@ body{
     grid-template-columns: 80% 20%;
 }
 #content{
-    /* border: 2px solid red; */
+    
     padding-bottom: 90px;
 }
 #heading{
@@ -72,14 +70,14 @@ body{
 }
 
 #imgss{
-    /* border: 1px solid black; */
+
     display: flex;
     align-items: right , bottom;
    
 }
 #imgss img:last-child{
     height: 30%;
-    /* border: 1px solid black; */
+
      position: relative;
     left: 100%;
     transform: translateX(-100%);
@@ -89,7 +87,7 @@ body{
 }
 #imgss img:first-child{
     height: 50%;
-    /* border: 1px solid black; */
+
      position: absolute;
     left: 100%;
     transform: translateX(-100%);
@@ -98,18 +96,16 @@ body{
     width: 150px;
 }
 @media screen and (max-width:430px) {
-    #abt_main{
-        /* border: 1px solid red; */
-    }
+    
     #abt{
-        /* border: 1px solid blue; */
+        
         height: 900px;
         background: url(./../images/photoabout.png);
         background-repeat: no-repeat;
         background-size: 100% 450px;
     }
     #head{
-        /* border: 1px solid blue; */
+        
         font-family: 'Irish Grover', cursive;
         /* color:rgb(201, 147, 147)01, 147, 147); */
         width: fit-content;
@@ -126,7 +122,7 @@ body{
         left: -70px;
     }
     #info{
-        /* border: 1px solid red; */
+        
         margin-top: 0;
         width:96%;
         position: relative;
@@ -136,7 +132,7 @@ body{
         grid-template-columns: 98% 2%;
     }
     #content{
-        /* border: 2px solid red; */
+        
         padding-bottom: 90px;
     }
     #heading{
@@ -158,14 +154,14 @@ body{
     }
     
     #imgss{
-        /* border: 1px solid black; */
+    
         display: flex;
         align-items: right , bottom;
        
     }
     #imgss img:last-child{
         height: 30%;
-        /* border: 1px solid black; */
+    
          position: relative;
         left: 100%;
         transform: translateX(-100%);
@@ -175,7 +171,7 @@ body{
     }
     #imgss img:first-child{
         height: 50%;
-        /* border: 1px solid black; */
+    
          position: absolute;
         left: 100%;
         transform: translateX(-100%);
@@ -185,18 +181,16 @@ body{
     }
 }
 @media screen and (min-width:431px) and (max-width:620px){
-    #abt_main{
-        /* border: 1px solid red; */
-    }
+    
     #abt{
-        /* border: 1px solid blue; */
+        
         height: 900px;
         background: url(./../images/photoabout.png);
         background-repeat: no-repeat;
         background-size: 100% 450px;
     }
     #head{
-        /* border: 1px solid blue; */
+        
         font-family: 'Irish Grover', cursive;
         /* color:rgb(201, 147, 147)01, 147, 147); */
         width: fit-content;
@@ -213,7 +207,7 @@ body{
         left: -80px;
     }
     #info{
-        /* border: 1px solid red; */
+       
         margin-top: 0;
         width:96%;
         position: relative;
@@ -223,7 +217,7 @@ body{
         grid-template-columns: 98% 2%;
     }
     #content{
-        /* border: 2px solid red; */
+        
         padding-bottom: 90px;
     }
     #heading{
@@ -245,14 +239,14 @@ body{
     }
     
     #imgss{
-        /* border: 1px solid black; */
+    
         display: flex;
         align-items: right , bottom;
        
     }
     #imgss img:last-child{
         height: 30%;
-        /* border: 1px solid black; */
+    
          position: relative;
         left: 100%;
         transform: translateX(-100%);
@@ -262,7 +256,7 @@ body{
     }
     #imgss img:first-child{
         height: 50%;
-        /* border: 1px solid black; */
+    
          position: absolute;
         left: 100%;
         transform: translateX(-100%);
@@ -272,18 +266,16 @@ body{
     }
 }
 @media screen and (min-width:621px) and (max-width:900px){
-    #abt_main{
-        /* border: 1px solid red; */
-    }
+    
     #abt{
-        /* border: 1px solid blue; */
+        
         height: 900px;
         background: url(./../images/photoabout.png);
         background-repeat: no-repeat;
         background-size: 100% 750px;
     }
     #head{
-        border: px solid blue;
+        
         font-family: 'Irish Grover', cursive;
         color:white;
         width: fit-content;
@@ -299,7 +291,7 @@ body{
         left: 90px;
     }
     #info{
-        /* border: 1px solid red; */
+        
         margin-top: 100;
         width:92%;
         position: relative;
@@ -309,7 +301,7 @@ body{
         grid-template-columns: 95% 5%;
     }
     #content{
-        /* border: 2px solid red; */
+        
         padding-bottom: 90px;
     }
     #heading{
@@ -331,14 +323,14 @@ body{
     }
     
     #imgss{
-        /* border: 1px solid black; */
+    
         display: flex;
         align-items: right , bottom;
        
     }
     #imgss img:last-child{
         height: 30%;
-        /* border: 1px solid black; */
+    
          position: relative;
         left: 100%;
         transform: translateX(-100%);
@@ -348,7 +340,7 @@ body{
     }
     #imgss img:first-child{
         height: 50%;
-        /* border: 1px solid black; */
+    
          position: absolute;
         left: 100%;
         transform: translateX(-100%);
@@ -358,18 +350,16 @@ body{
     }
 }
 @media screen and (min-width:901px) and (max-width:900px){
-    #abt_main{
-        /* border: 1px solid red; */
-    }
+   
     #abt{
-        /* border: 1px solid blue; */
+        
         height: 900px;
         background: url(./../images/photoabout.png);
         background-repeat: no-repeat;
         background-size: 100% 750px;
     }
     #head{
-        border: px solid blue;
+        
         font-family: 'Irish Grover', cursive;
         color:white;
         width: fit-content;
@@ -385,7 +375,7 @@ body{
         left: 110px;
     }
     #info{
-        /* border: 1px solid red; */
+        
         margin-top: 100;
         width:92%;
         position: relative;
@@ -395,7 +385,7 @@ body{
         grid-template-columns: 95% 5%;
     }
     #content{
-        /* border: 2px solid red; */
+        
         padding-bottom: 90px;
     }
     #heading{
@@ -417,14 +407,14 @@ body{
     }
     
     #imgss{
-        /* border: 1px solid black; */
+    
         display: flex;
         align-items: right , bottom;
        
     }
     #imgss img:last-child{
         height: 30%;
-        /* border: 1px solid black; */
+    
          position: relative;
         left: 100%;
         transform: translateX(-100%);
@@ -434,7 +424,7 @@ body{
     }
     #imgss img:first-child{
         height: 50%;
-        /* border: 1px solid black; */
+    
          position: absolute;
         left: 100%;
         transform: translateX(-100%);

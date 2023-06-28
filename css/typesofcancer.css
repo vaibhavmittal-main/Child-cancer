@@ -8,7 +8,8 @@
 .upper-typesofcancer{
     border: px solid red;
     height:700px;
-
+    position: relative;
+    top: 0px;
     background: url(./../images/tv3_cleanup.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,6 +74,7 @@
     box-shadow: 0 0 6px 0 rgba(32, 32, 36, .12);
     transition: all 0.35s ease;
     /* border: 1px solid red; */
+    height: auto;
 }
 .card::before, .card::after {
     content: "";
@@ -141,7 +143,7 @@
     margin-bottom: 0.5em;
 }
 .card:hover .hover_content {
-    max-height: 10em;
+    max-height: 20em;
     transform: none;
 }
 
@@ -303,7 +305,7 @@
         margin-bottom: 0.5em;
     }
     .card:hover .hover_content {
-        max-height: 10em;
+        max-height: 20em;
         transform: none;
     }
     
@@ -465,7 +467,7 @@
         margin-bottom: 0.5em;
     }
     .card:hover .hover_content {
-        max-height: 10em;
+        max-height: 20em;
         transform: none;
     }
     
