@@ -4,9 +4,9 @@
     margin: 0;
 }
 body{
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif;
     font-family: 'Irish Grover', cursive;
-    font-family: 'Itim', cursive;
+    font-family: 'Itim', cursive; */
     background-color: #F5F6F5;
     
 
@@ -23,7 +23,7 @@ body{
 }
 #head{
     
-    font-family: 'Irish Grover', cursive;
+    font-family: 'Irish Grover', ;
     color:white;
     width: fit-content;
     position: relative;
@@ -33,6 +33,7 @@ body{
 }
 #head h1{
     font-size: 120px;
+    font-family: 'Irish Grover';
     position: relative;
     top: 190px;
     left: 250px;

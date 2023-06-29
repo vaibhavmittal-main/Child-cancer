@@ -18,7 +18,7 @@
 }
 #org{
     color: #B88556;
-    font-family: 'Righteous', ;
+    font-family: 'Righteous',sans-serif ;
     font-size: 70px;
     /* border: 1px solid black; */
     position: relative;
@@ -28,7 +28,7 @@
 }
 #org2{
 color: white;
-font-family: 'Righteous', ;
+font-family: 'Righteous', sans-serif;
 font-size: 70px;
     position: relative;
     top:80px;
@@ -58,7 +58,7 @@ font-size: 70px;
 #con_p1 h3{
     color: #B88556;
     font-family: 'Irish Grover' , sans-serif;
-    font-size: 38px;
+    font-size: 33px;
 }
 #con_p1 p{
     font-family: 'Inter', sans-serif;

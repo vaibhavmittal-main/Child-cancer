@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="https://kit.fontawesome.com/a862feff0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/links-toggle.css">
 </head>
 <body>
     <div class="header grayscale">
         <div class="icons">
-          <i class="fa-brands fa-telegram icon adjustable_text high-contrast" style="color: #FF4343"></i>
+          
           <i class="fa-brands fa-facebook-square icon adjustable_text high-contrast" style="color: #1F5EAB"></i>
           <i class="fa-brands fa-instagram icon adjustable_text high-contrast" style="color: #00771D"></i>
           <i class="fa-brands fa-twitter icon adjustable_text high-contrast" style="color: #FFC700"></i>
@@ -20,17 +22,34 @@
             <p style="color: #992F8F;" class="adjustable_text">info.cancer@gmail.com</p>
           </div>
           <div class="phone info">
-            <i class="fa-solid fa-phone adjustable_text"></i>
-            <p class="adjustable_text">+91 999999999</p>
+            <i style="color: #EC5101;" class="fa-solid fa-phone adjustable_text"></i>
+            <p style="color: #EC5101;" class="adjustable_text">+91 999999999</p>
           </div>
         </div>
-        <!-- <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'body');
-  }
-  </script>
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+
+          </div>
+      <div class="links-menu">
+          <div class="links-toggle"><i class="fa-solid fa-link"></i></div>
+          <li style="--i:2;">
+              <a href=""><i class="fa-brands fa-instagram" style="color: #FF4343; font-size: 35px;"></i></a>
+          </li>
+          <li style="--i:3;">
+              <a href=""><i class="fa-brands fa-facebook" style="color: #1F5EAB; font-size: 35px;"></i></a>
+          </li>
+          
+          <li style="--i:4;">
+              <a href=""><i class="fa-brands fa-twitter" style="color: #FFC700 ; font-size: 35px;"></i></a>
+          </li>
       </div>
+  
+      <script>
+          let toggle = document.querySelector(".links-toggle");
+          let menu = document.querySelector(".links-menu");
+          toggle.onclick = function() {
+              menu.classList.toggle("active");
+          }
+      </script> 
     <div class="wrapper grayscale">
       <nav>
         <input type="checkbox" id="show-search">
@@ -54,6 +73,7 @@
                 <li><a href="whatis.html" class="adjustable_text">What is Childhood Cancer?</a></li>
                 <li><a href="howis.html" class="adjustable_text">How is Childhood Cancer Treated?</a></li>
                 <li><a href="typesofcancer.html" class="adjustable_text">Types of Childhood Cancer</a></li>
+                <li><a href="whydo.html" class="adjustable_text">Why do Children get cancer?</a></li>
                 <!-- <li><a href="groupActivties.php" class="adjustable_text">Why do Children gets Cancer?</a></li>
                 <li><a href="lifestyleAndCareer.php" class="adjustable_text">Life Style and Career Development</a></li>
                 <li><a href="inHomeServices.php" class="adjustable_text">In Home Services</a></li> -->
