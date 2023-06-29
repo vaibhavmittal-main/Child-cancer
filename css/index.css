@@ -1593,69 +1593,51 @@ p:nth-child(2) {
     margin: 0;
     padding: 0;
 }
-#testi_main{
-    /* border: 1px solid black; */
-    height: 700px;
+
+.testimonials{
+    /* border: 1px solid red; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: url(./../images/testimonialsbg.png);
+    background-size: cover;
+    background-position: top;
 }
-.testimonials {
-    margin-top: 70px;
-         
-        /*display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 120px; */
-        /* background-color: #000000; */
-        /* height: 5000px; */
-        
-    }
+
+.testimonials-heading{
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px ssolid red; */
+    margin-top: -480px;
+
+}
+.testi-hd-span{
+    border-left: 3px solid #1F5EAB;
+    border-right: 3px solid #1F5EAB;
+    width: 30%;
+    text-align: center;
     
-    .testimonials-heading {
-    
-        position: relative;
-        height: 200px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* border: 1px solid black; */
-        z-index: -5;
-    
-    }
-    .testi-hd-span2{
-        color: white;
-        position: relative;
-        font-family: 'Marcellus', serif;
-        font-size: 205px;
-        -webkit-text-stroke:2px #CACACA;
-        opacity: 38%;
-        font-size: 18vw;
-    }
-    .testi-hd-span {
-        border-left: 3px solid #1F5EAB;
-        border-right: 3px solid #1F5EAB;
-        width: 30%;
-        text-align: center;
-        position: absolute;
-        top: 50px;
-    
-        /* FONTS */
-        font-family: 'Marcellus', serif;
-        font-size: 35px;
-    }
+    /* FONTS */
+    font-family: 'Marcellus', serif;
+    font-size: 35px;
+}
 
 .testimonials-sec{
-    height: 90%;
+    height: 100%;
     width: 100%;
-    padding-top: 0px;
-    /* border: 1px solid black; */
-    border: px solid red;
+    position: absolute;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    z-index: 1000;
-    position: relative;
-    position: relative;
-    top:-80px;
+    /* top: 25000px; */
 }
 
 .row,.col-md-12,#carouselExampleIndicators{
@@ -1664,6 +1646,10 @@ p:nth-child(2) {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    /* z-index: 100; */
+    position: absolute;
 }
 
 .carousel-inner{
@@ -1674,7 +1660,7 @@ p:nth-child(2) {
 .testi-box{
     border: px solid red;
     width: 100%;
-    height: 250px;
+    height: 270px;
     background-color: #DDE7F2;
     border-radius: 8px;
     display: flex;
@@ -1701,7 +1687,7 @@ p:nth-child(2) {
     position: absolute;
     left: -10%;
     top: -20%;
-    height: 100px;
+    
 }
 
 .testi-bx-img2{
@@ -1727,8 +1713,8 @@ p:nth-child(2) {
     align-self: flex-end;
     justify-self: flex-end;
     position: relative;
-    top: 10%;
-    right: 25px;
+    top: 15%;
+    right: 8px;
 }
 
 .row2{
@@ -1765,19 +1751,19 @@ p:nth-child(2) {
     border: 0px;
 }
 
-@media screen and (max-width:621px){
+@media screen and (max-width:767px){
     *{
         border: px solid red;
     }
     .testimonials{
         border: px solid red;
-        height: 550px;
+        height: 950px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     
-        background: url(images/Testimonials.png);
+        background: url(./../images/Testimonials.png);
         background-size: cover;
         background-position: top;
     }
@@ -1790,8 +1776,8 @@ p:nth-child(2) {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: 1px ssolid red; */
-        
+        border: 1px ssolid red;
+        top: -15%;
     
     }
     .testi-hd-span{
@@ -1806,32 +1792,43 @@ p:nth-child(2) {
     }
     
     .testimonials-sec{
-        height: 90%;
+        height: 750px;
         width: 100%;
-        
-        border: px solid red;
+        position:absolute;
+        /* border: 1px solid red; */
         display: flex;
+        
         justify-content: center;
     }
     
     .row,.col-md-12,#carouselExampleIndicators{
         width: 100%;
-        height: 100%;
+        height:700px;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        padding-bottom: 0px;
+        /* border: 1px solid black; */
+        margin-top: -350px;
     }
-    
+    #carouselExampleIndicators{
+        margin-top: 00px;
+    }
+    .col-md-12{
+        margin-top: 100px;
+    }
     .carousel-inner,.carousel-item{
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
+        margin-top: 50px;
     }
     .testi-box{
         border: px solid red;
         width: 100%;
-        height: 150px;
+        height: 180px;
         background-color: #DDE7F2;
         border-radius: 8px;
         display: flex;
@@ -1839,24 +1836,26 @@ p:nth-child(2) {
         align-items: center;
         flex-direction: column;
         position: relative;
-    
+        margin-top: 0px;
+        position: relative;
+        margin-top: 0px;
     }
     
     .testi-bx-img{
-        width: 80px;
+        width: 60px;
         border-radius: 50%;
         position: absolute;
-        left: -4%;
-        top: -25%;
-        
+        left: -2%;
+        top: -10%;
+        height: 60px;
     }
     
     .testi-bx-img2{
-        width: 70px;
+        width: 50px;
         border: px solid red;
         position: absolute;
-        right: -5%;
-        top: -20%;
+        right: -2%;
+        top: -15%;
     }
     .testi-sp-1{
         border: px solid red;
@@ -1867,7 +1866,7 @@ p:nth-child(2) {
     
         /* FONTS */
         font-family: 'Inter', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         color: #000000;
     }
@@ -1879,6 +1878,7 @@ p:nth-child(2) {
         position: relative;
         top: 20px;
         right: 5px;
+        font-size: 14px;
     }
     
     .row2{
@@ -1915,7 +1915,7 @@ p:nth-child(2) {
     }
     
 }
-@media screen and (min-width:621px) and (max-width:1035px){
+@media screen and (min-width:768px) and (max-width:1035px){
     *{
         border: px solid red;
     }
@@ -1927,7 +1927,7 @@ p:nth-child(2) {
         justify-content: center;
         align-items: center;
     
-        background: url(images/testimonialsbg.png);
+        background: url(./../images/testimonialsbg.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top;
@@ -1942,7 +1942,7 @@ p:nth-child(2) {
         align-items: center;
         justify-content: center;
         /* border: 1px ssolid red; */
-        
+        top: 10%;
     
     }
     .testi-hd-span{
@@ -1957,7 +1957,7 @@ p:nth-child(2) {
     }
     
     .testimonials-sec{
-        height: 90%;
+        height: 100%;
         width: 100%;
         
         border: px solid red;
@@ -1967,10 +1967,12 @@ p:nth-child(2) {
     
     .row,.col-md-12,#carouselExampleIndicators{
         width: 100%;
-        height: 100%;
+        height: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
+        /* border: 1px solid black; */
+        margin-top: 2%;
     }
     
     .carousel-inner{
@@ -1981,7 +1983,7 @@ p:nth-child(2) {
     .testi-box{
         border: px solid red;
         width: 120%;
-        height: 150px;
+        height: 270px;
         background-color: #DDE7F2;
         border-radius: 8px;
         display: flex;
@@ -1989,15 +1991,17 @@ p:nth-child(2) {
         align-items: center;
         flex-direction: column;
         position: relative;
-    
+        /* padding-bottom: 100px; */
+        margin-top: 50px;
     }
     
     .testi-bx-img{
         width: 70px;
+        height: 70px;
         border-radius: 50%;
         position: absolute;
-        left: -15%;
-        top: -20%;
+        left: -7%;
+        top: -12%;
         
     }
     
@@ -2006,7 +2010,7 @@ p:nth-child(2) {
         border: px solid red;
         position: absolute;
         right: -5%;
-        top: -20%;
+        top: -10%;
     }
     .testi-sp-1{
         border: px solid red;
@@ -2027,7 +2031,8 @@ p:nth-child(2) {
         justify-self: flex-end;
         position: relative;
         top: 10%;
-        right: 5px;
+        right: 2px;
+        font-size: 13px;
     }
     
     .row2{

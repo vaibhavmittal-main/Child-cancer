@@ -80,7 +80,7 @@
     /* border: 1px solid black; */
     width: 100%;
     font-family: 'Inter', sans-serif;
-    margin-top: 0px;
+    margin-top: 2000px;
     margin-top: 17%;
     font-size: 17px;
     text-align: left;
@@ -360,7 +360,7 @@
     background-color: #053065;
     color: #FFFFFF;
     padding-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 #contents{
     display: flex;
