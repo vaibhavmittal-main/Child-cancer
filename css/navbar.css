@@ -63,6 +63,7 @@ nav .content .links {
     align-items: center;
     justify-content: space-between;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kanit&family=Marcellus&family=Monda:wght@400;700&family=Montserrat:wght@400;600;800;900&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700;900&family=Raleway:wght@600;700&family=Righteous&family=Roboto:wght@100;300;400;700;900&display=swap');
 
 /* .content .logo a img {
     display: flex;
@@ -77,10 +78,10 @@ nav .content .links {
     text-decoration: none;
     color: #002148;
     font-weight: bold;
-    font-family: 'Inter';
+    font-family: 'Righteous' , sans-serif;
     margin-top: 15px;
     margin-left: 10px;
-    font-size: 22px;
+    font-size: 19px;
 }
 .content .links li {
     list-style: none;
@@ -497,8 +498,9 @@ nav .content .links {
 
 .infos {
     display: flex;
-    width: 42%;
+    width: 37%;
     justify-content: space-between;
+    /* border: 1px solid black; */
 }
 
 .info {
@@ -507,16 +509,23 @@ nav .content .links {
     justify-content: right;
     align-items: center;
     color: var(--second-color);
-    margin-left: 2vw;
+    /* margin-left: 5vw; */
 }
-
+.info:last-child{
+margin-left: 0vw;
+display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    color: var(--second-color);
+}
 .info i {
     font-size: 18px;
 }
 
 .info p {
-    width: 300px;
-    padding-left: 0.5vw;
+    width: fit-content;
+    padding-left: 0.2vw;
     letter-spacing: 2px;
     font-weight: 400;
     margin-bottom: 0;
