@@ -486,25 +486,7 @@ nav .content .links {
     margin-left: -60px;
 }
 }
-/* @media screen and (max-width: 500px){
-    nav .content {
-        display: flex;
-        width: max-content;
-        justify-content: space-between;
-    
-    }
-    .wrapper nav {
-        position: relative;
-        display: flex;
-        max-width: calc(100% - 200px);
-        margin: 0 auto;
-        align-items: center;
-        justify-content: start;
-        height: 95px;
-        z-index: 72;
-        width: 80%;
-    }
-} */
+
 
 .wrapper{
     z-index: 1000;
