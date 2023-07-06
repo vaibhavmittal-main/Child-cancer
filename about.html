@@ -41,6 +41,15 @@
 
             <div id="info">
                 <div id="content">
+                    
+
+                    <div class="c fade-in-text">
+                        <h3 id="heading">
+                            Education & Resources:                        </h3>
+                        <p id="con" >
+                            Knowledge is power, especially when facing a battle like cancer. We provide educational resources to help families better understand the disease, treatment options, and possible side effects. Our goal is to empower families with information, enabling them to make informed decisions and actively participate in their child's care.</p>
+                    </div>
+                    
                     <div class="c">
                         <h3 id="heading">
                             Emotional Support :
@@ -50,16 +59,8 @@
                         </p>
                     </div>
 
-                    <div class="c">
-                        <h3 id="heading">
-                            Education & Resources:                        </h3>
-                        <p id="con">
-                            Knowledge is power, especially when facing a battle like cancer. We provide educational resources to help families better understand the disease, treatment options, and possible side effects. Our goal is to empower families with information, enabling them to make informed decisions and actively participate in their child's care.</p>
-                    </div>
 
-
-
-                    <div class="c">
+                    <div class="c fade-in-text">
                         <h3 id="heading">
                             Medical Care :                        </h3>
                         <p id="con">
@@ -85,5 +86,30 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <script>
+        // JavaScript for text animation on scroll
+        const fadeTextElements = document.querySelectorAll('.fade-in-text');
+
+        function fadeInTextOnScroll() {
+            fadeTextElements.forEach((element) => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (elementPosition < windowHeight) {
+                    element.classList.add('fade-in');
+                }
+            });
+        }
+
+        // Trigger animation on initial page load
+        fadeInTextOnScroll();
+
+        // Trigger animation on scroll
+        window.addEventListener('scroll', fadeInTextOnScroll);
+    </script>
 </body>
 </html>
