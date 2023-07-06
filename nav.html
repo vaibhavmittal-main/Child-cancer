@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="css/navbar.css">
+  <!-- <link rel="stylesheet" href="css/navbar.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <link rel="stylesheet" href="css/links-toggle.css">
 <link rel="stylesheet" href="css/header.css">
@@ -30,7 +30,7 @@
             border: 1px solid black;
         }
       </style>
-  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script> -->
 </head>
 <body>
   
@@ -113,54 +113,9 @@
       </li>
   </div>
   
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
     
  
-  
-  
-  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script>
-      $(document).ready(function() {
-      window.addEventListener('dfMessengerLoaded', function (event) {
-          $r1 = document.querySelector("df-messenger");
-          $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-          $r5 = $r2.shadowRoot.querySelector("df-message-list");
-  
-          var sheet = new CSSStyleSheet;
-          sheet.replaceSync(`div.chat-wrapper[opened="true"] { height: 70vh; width: 350px; z-index:5000 position:absolute }`); //To change Height and Width
-          $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-  
-          var sheet3 = new CSSStyleSheet;
-          sheet3.replaceSync(`#messageList .message {font-size:0.9em !important; z-index:5000}
-           #messageList .message.bot-message {margin-right: 20px ; z-index:5000} 
-           #messageList .message.user-message {margin-left: 20px; margin-top: 15px; margin-bottom: 6px; z-index:5000} 
-           .message-list-wrapper.minimized #messageList {margin-right: -15px; z-index:5000} 
-           .message-list-wrapper.minimized #dismissIcon {padding: 1px}`); //To change margin sizes of user and bot messages
-          $r5.shadowRoot.adoptedStyleSheets = [ sheet3 ];
-  
-          var sheet5 = new CSSStyleSheet;
-          sheet5.replaceSync(`button#widgetIcon .df-chat-icon {height: 56px; width: 56px; left: 0px; top:0px;}`); //To change chat icon 
-          $r1.shadowRoot.adoptedStyleSheets = [ sheet5 ];    
-      });
-  });
-
-
-
-  const currentPath = window.location.pathname;
-        const menuItemLinks = document.querySelectorAll('.nav-link');
-
-        menuItemLinks.forEach((menuItem) => {
-            if (menuItem.getAttribute('href') === currentPath) {
-                menuItem.classList.add('hhhhover');
-            }
-        });
-    
-  
-  
-  </script>
-  
-  
-  
   
   
   
@@ -184,52 +139,7 @@
 
 
 
-(function($) { "use strict";
 
-	$(function() {
-		var header = $(".start-style");
-		$(window).scroll(function() {    
-			var scroll = $(window).scrollTop();
-		
-			if (scroll >= 10) {
-				header.removeClass('start-style').addClass("scroll-on");
-			} else {
-				header.removeClass("scroll-on").addClass('start-style');
-			}
-		});
-	});		
-		
-	//Animation
-	
-	$(document).ready(function() {
-		$('body.hero-anime').removeClass('hero-anime');
-	});
-
-	//Menu On Hover
-		
-	$('body').on('mouseenter mouseleave','.nav-item',function(e){
-			if ($(window).width() > 750) {
-				var _d=$(e.target).closest('.nav-item');_d.addClass('show');
-				setTimeout(function(){
-				_d[_d.is(':hover')?'addClass':'removeClass']('show');
-				},1);
-			}
-	});	
-	
-	//Switch light/dark
-	
-	$("#switch").on('click', function () {
-		if ($("body").hasClass("dark")) {
-			$("body").removeClass("dark");
-			$("#switch").removeClass("switched");
-		}
-		else {
-			$("body").addClass("dark");
-			$("#switch").addClass("switched");
-		}
-	});  
-	
-  })(jQuery); 
   </script>
 </body>
 </html> 
