@@ -418,7 +418,7 @@ h1 span:nth-child(15){
 		content: "";
 		border: none;
 		background-color: #000;
-		vertical-align: 0;
+		
 	}
 	.dropdown-toggle::after {
 		position: absolute;
@@ -430,7 +430,7 @@ h1 span:nth-child(15){
 		content: "";
 		border: none;
 		background-color: #000;
-		vertical-align: 0;
+		
 		transition: all 200ms linear;
 	}
 	.dropdown-toggle[aria-expanded="true"]::after{
@@ -505,12 +505,14 @@ h1 span:nth-child(15){
     color: var(--second-color);
  margin-left: 5vw;
 }
-.info i {
+.info i{
     font-size: 15px;
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right:5px;
 }
-
+.infi i:nth-child(1){
+    
+}
 .info p {
     width: 200px;
     padding-left: 0.2vw;
