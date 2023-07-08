@@ -592,7 +592,7 @@ footer .logo {
     .footer-bottom-bar ul {
         list-style-type: none;
         display: flex;
-        margin-top: 25px;
+        margin-top: 15px;
     }
     
     .footer-bottom-bar ul li {
@@ -603,6 +603,7 @@ footer .logo {
         color: white;
         text-decoration: none;
         font-weight: bold;
+        font-size:2vh;
     }
     
     .footer-bottom-bar .copy-disclaimer {
@@ -738,6 +739,15 @@ footer .logo {
         padding: 0px 6vw;
     }
     
+    .footer-bottom-bar {
+        background-color: #002048;
+        display: flex;
+        justify-content: space-between;
+        height: 7vh;
+        align-items: center;
+        padding: 0px 0vw;
+    }
+    
     .footer-bottom-bar ul {
         list-style-type: none;
         display: flex;
@@ -752,7 +762,7 @@ footer .logo {
         color: white;
         text-decoration: none;
         font-weight: bold;
-        font-size: 2vh;
+        font-size: 1.6vh;
     }
     
     .footer-bottom-bar .copy-disclaimer {
