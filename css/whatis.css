@@ -24,17 +24,18 @@
     font-size: 70px;
     /* border: 1px solid black; */
     position: relative;
-    top: 80px;
+    top: 130px;
     left: 90px;
     width: 70%;
     text-align: left !important;
+
 }
 #org2{
 color: white;
 font-family: 'Righteous', sans-serif;
 font-size: 70px;
     position: relative;
-    top:80px;
+    top:130px;
     left: 90px;
     width: 50%;
     /* border: 1px solid black; */
@@ -44,7 +45,7 @@ font-size: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* border: 1px solid black; */
-    margin-top: 250px;
+    margin-top: 350px;
     width: 90%;
     position: relative;
     left: 5%;
@@ -75,7 +76,11 @@ font-size: 70px;
     padding-right: 8px;
     text-align: left !important;
 }
-
+#main_footer{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 500px;
+}
 
 #con_p2 p{
     font-family: 'Inter', sans-serif;
@@ -109,6 +114,7 @@ font-size: 70px;
         background-position: center;
         margin-top: 90px;
     }
+
     #head{
         
         font-family: 'Righteous';
@@ -192,6 +198,7 @@ font-size: 70px;
         background-position: center;
         margin-top: 70px;
     }
+
     #head{
         
         font-family: 'Righteous';
