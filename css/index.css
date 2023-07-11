@@ -2957,7 +2957,7 @@ p:nth-child(2) {
     color: white;
     position: relative;
     overflow: hidden;
-    z-index: 1;
+    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;

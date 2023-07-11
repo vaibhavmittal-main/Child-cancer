@@ -391,6 +391,7 @@ form .submit-btn {
     .breaker {
         width: 50%;
         height: 5px;
+        margin: 0 auto;
     }
     .right {
         margin-top: 10%;
@@ -439,7 +440,7 @@ form .submit-btn {
     }
     .right form button {
         width: 40%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
         font-size: 3vw;
         padding-top: 3%;
         padding-bottom: 3%;

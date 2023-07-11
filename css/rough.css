@@ -219,7 +219,8 @@ nav{
 	background:none;
 	text-decoration:none;
 	font-weight:bolder;
-	transition: all 0.8s;
+	transition: all 0.4s;
+	cursor: pointer;
 }
 .cnbtn:hover{
 	color:#ffffff;
