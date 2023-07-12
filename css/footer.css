@@ -156,24 +156,6 @@ footer .logo {
     margin-left: -1em;
 }
 
-.second-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3vh;
-}
-
-.second-row img {
-    width: 4vw;
-}
-
-.second-row p {
-    color: white;
-    font-size: .8vw;
-    width: 55vw;
-    font-weight: 100;
-    margin-left: 1vw;
-}
 
 .footer-bottom-bar {
     background-color: #002048;

@@ -9,17 +9,18 @@
     background-repeat: no-repeat;
     background-size: 100% 600px;
 }
-.diff-bg{
-    /* border: 1px solid red; */
-    height: 600px;
-    
-}
+
 
 
 #main_footer{
     position: relative;
     bottom: 0;
     top: 0;
+}
+.diff-bg{
+    /* border: 1px solid red; */
+    height: 600px;
+    
 }
 .diff-cancer-headingdiv{
     /* border: 1px solid red; */
