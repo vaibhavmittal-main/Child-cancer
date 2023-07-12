@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@400;500&family=Irish+Grover&family=Kanit&family=Marcellus&family=Monda:wght@400;700&family=Montserrat:wght@400;600;800;900&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700;900&family=Raleway:wght@600;700&family=Reem+Kufi+Ink&family=Righteous&family=Roboto:wght@100;300;400;700;900&display=swap');
+
 footer {
     width: 100%;
     position: relative;
@@ -108,7 +110,7 @@ footer .logo {
 .important-links p {
     font-size: 3vh;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 
@@ -122,7 +124,7 @@ footer .logo {
     display: flex;
     justify-content: space-evenly;
     /* border: 1px solid black; */
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 .uls ul {
@@ -133,12 +135,14 @@ footer .logo {
 
 .uls li {
     list-style-type: none;
-    width: 200px;
+    width: 220px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .uls li a {
     text-decoration: none;
     color: white;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -312,7 +316,7 @@ footer .logo {
     .important-links p {
         font-size: 3vh;
         color: white;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 600;
     }
     
@@ -515,7 +519,7 @@ footer .logo {
     .important-links p {
         font-size: 3vh;
         color: white;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 600;
     }
     

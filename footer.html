@@ -1,18 +1,3 @@
-<?php
-
-if(isset($_POST['save'])) {
-    include "./conn_conn.php";
-    $email = $_POST['email'];
-    $query = "SELECT * FROM subscription where email = '$email';";
-    $result = mysqli_query($conn, $query);
-    if(mysqli_num_rows($result) == 0) {
-        $query2 = "INSERT INTO subscription (email) VALUES ('$email');";
-        mysqli_query($conn, $query2);
-    }
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>

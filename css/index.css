@@ -1517,9 +1517,15 @@ body{
     left: 10%;
     height: 670px;
     margin-top: -70px;
-
+    /* border: 2px solid black; */
+    transition: all 0.5s ease;
 }
-
+#dc:hover{
+    scale:  105% 110% ;
+}
+/* #dc:hover #dbg{
+    scale:  105% 110% ;
+} */
 #sec2main {
     margin-top: 100px;
     margin-left: 0%;
