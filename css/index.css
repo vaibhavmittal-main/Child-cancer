@@ -956,7 +956,7 @@ body{
 .fade-in-text {
     opacity: 0;
     transform: translateX(300px);
-    transition: opacity 1s, transform 1s;
+    transition: opacity 1s, transform 5s;
     text-align: left !important;
 }
 
