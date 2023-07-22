@@ -1,18 +1,3 @@
-<?php
-
-if(isset($_POST['save'])) {
-    include "./conn_conn.php";
-    $email = $_POST['email'];
-    $query = "SELECT * FROM subscription where email = '$email';";
-    $result = mysqli_query($conn, $query);
-    if(mysqli_num_rows($result) == 0) {
-        $query2 = "INSERT INTO subscription (email) VALUES ('$email');";
-        mysqli_query($conn, $query2);
-    }
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,7 +14,7 @@ if(isset($_POST['save'])) {
         <div class="first-row">
           <div class="short-about">
             <div class="logo">
-              <img src="/images/LITTLE WARRIORS.png" />
+              <img src="/images/ltfooter.png" />
             </div>
             <h2 class="footer-address adjustable_text">
               At Our Children's Cancer Support, we are dedicated to providing
@@ -98,6 +83,11 @@ if(isset($_POST['save'])) {
                     >Why do children get cancer?</a
                   >
                 </li>
+                <li>
+                  <a href="prevent.html" class="adjustable_text"
+                    >How is Childhood Cancer Prevented</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -121,7 +111,7 @@ if(isset($_POST['save'])) {
           <li><a href="" class="adjustable_text">Terms and Conditions</a></li>
         </ul>
         <h2 class="copy-disclaimer adjustable_text">
-          &COPY; Copyright 2022 Little Warriors
+          &COPY; Copyright 2023 Little Warriors
         </h2>
       </div>
     </footer>
