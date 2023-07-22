@@ -1769,19 +1769,20 @@ p:nth-child(2) {
     #dbg {
         background: #001E42;
         height: 70% !important;
-        width: 100%;
+        width: 120%;
         margin-top: 5%;
         position: relative;
         top: 50%;
+        left: -10%;
         transform: translateY(-50%);
         
     }
 
     #dc {
         position: absolute;
-        width: 80%;
+        width: 100%;
         top: 0px;
-        left: 10%;
+        left: 0%;
         height: 100%;
         margin-top: 0px;
 
