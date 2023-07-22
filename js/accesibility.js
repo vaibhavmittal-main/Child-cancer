@@ -1,6 +1,3 @@
-
-
-
 const toggleButton = document.getElementById("menu-toggle");
 const accessibilityMenu = document.getElementById("accessibility-menu");
 const highlightLinks = document.getElementById("highlight-links");
@@ -9,7 +6,6 @@ const decreaseText = document.getElementById("decrease-text");
 const adjustableText = document.getElementsByClassName("adjustable_text");
 const grayscale = document.getElementById("grayscale");
 const highContrast = document.getElementById("high-contrast");
-
 
 const grayscaleElements = document.getElementsByClassName("grayscale");
 const contrastElements = document.getElementsByClassName("high-contrast");
@@ -35,7 +31,7 @@ increaseText.addEventListener("click", () => {
       currentFontSize = currentFontSize.toFixed(2);
       currentFontSize = currentFontSize.toString();
       var newArray = currentFontSize.split(".");
-      var newFontSize = Number(newArray[0]) + 2;
+      var newFontSize = Number(newArray[0]) + 4;
       adjustableText[i].style.fontSize = newFontSize + "." + newArray[1] + "px";
       textSizeLimit++;
     }
@@ -51,7 +47,7 @@ decreaseText.addEventListener("click", () => {
       currentFontSize = currentFontSize.toFixed(2);
       currentFontSize = currentFontSize.toString();
       var newArray = currentFontSize.split(".");
-      var newFontSize = Number(newArray[0]) - 2;
+      var newFontSize = Number(newArray[0]) - 4;
       adjustableText[i].style.fontSize = newFontSize + "." + newArray[1] + "px";
       textSizeLimit--;
     }
@@ -60,13 +56,10 @@ decreaseText.addEventListener("click", () => {
   }
 });
 
-
-
 grayscale.addEventListener("click", () => {
   if (grayscaleToggle == false) {
     for (i = 0; i < grayscaleElements.length; i++) {
       grayscaleElements[i].style.filter = "grayscale(100%)";
-      
     }
     grayscaleToggle = true;
   } else {
@@ -90,7 +83,6 @@ highContrast.addEventListener("click", () => {
     contrastToggle = false;
   }
 });
-
 
 reset.addEventListener("click", () => {
   let anchorTags = document.getElementsByTagName("a");

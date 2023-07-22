@@ -82,14 +82,14 @@
 @media only screen and (max-width: 400px) {
     .links-menu{ 
         left: -16%;
-        bottom: -10%;
+        bottom: -3%;
     }
     
     .links-menu li a i {
         font-size: 8vw;
     }
 }
-@media screen and (min-width:401px)and(max-width:450px) {
+@media screen and (min-width:401px) and (max-width:450px) {
     .links-menu{ 
         margin-left: 0% !important;
         bottom: -0%;
@@ -100,7 +100,7 @@
     }
 }
 
-@media screen and (min-width:451px)and(max-width:800px) {
+@media screen and (min-width:451px) and (max-width:800px) {
     .links-menu{ 
         margin-left: 0% !important;
         bottom: -0%;
