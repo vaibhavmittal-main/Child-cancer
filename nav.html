@@ -2,42 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
-    <link rel="stylesheet" href="./css/nav.css" />
+    <title>Little Warriors</title>
+    <link rel="stylesheet" href="css/rough.css" />
+    <link rel="stylesheet" href="css/links-toggle.css" />
+    <script
+      src="https://kit.fontawesome.com/a862feff0b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div id="nav" class="navbar">
-      <div class="logo">
-        <img src="./images/logo.png" alt="" class="logo-img" />
-        <p>CancerFree</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li class="links-list">
-            <a href="./index.html">Home</a>
+    <div class="links-menu grayscale high-contrast">
+      <div class="links-toggle"><i class="fa-solid fa-link"></i></div>
+      <li style="--i: 2">
+        <a href=""
+          ><i class="fa-brands fa-instagram" style="color: #ff4343"></i
+        ></a>
+      </li>
+      <li style="--i: 3">
+        <a href=""
+          ><i class="fa-brands fa-facebook" style="color: #1f5eab"></i
+        ></a>
+      </li>
+      <li style="--i: 4">
+        <a href=""
+          ><i class="fa-brands fa-telegram" style="color: #00771d"></i
+        ></a>
+      </li>
+      <li style="--i: 5">
+        <a href=""
+          ><i class="fa-brands fa-twitter" style="color: #ffc700"></i
+        ></a>
+      </li>
+    </div>
+   
+    <nav>
+      <div class="nav-div grayscale high-contrast">
+        <img
+          class="nav-logo"
+          src="images/LITTLE_WARRIORS_(1)-transformed.png"
+        />
+        <input type="checkbox" class="check-menu" id="check" />
+        <label for="check" class="checkbox">
+          <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+        <ul class="nav">
+          <li><a href="index.html" class="adjustable_text">Home</a></li>
+          <li><a href="about.html" class="adjustable_text">About</a></li>
+          <li>
+            <a href="#" class="adjustable_text">Support & Resources</a>
+
+            <ul class="drop-down">
+              <li>
+                <a href="whatis.html" class="adjustable_text"
+                  >What is childhood cancer?</a
+                >
+              </li>
+              <li>
+                <a href="howis.html" class="adjustable_text"
+                  >How is childhood cancer treated?</a
+                >
+              </li>
+              <li>
+                <a href="typesofcancer.html" class="adjustable_text"
+                  >Types of childhood cancer</a
+                >
+              </li>
+              <li>
+                <a href="whydo.html" class="adjustable_text"
+                  >Why do children get cancer?</a
+                >
+              </li>
+              <li>
+                <a href="finding.html" class="adjustable_text"
+                  >Finding cancer in children</a
+                >
+              </li>
+              <li>
+                <a href="aft-treatment.html" class="adjustable_text"
+                  >After treatment of childhood cancer</a
+                >
+              </li>
+              <li>
+                <a href="diff.html" class="adjustable_text"
+                  >Difference between Childhood and Adult Cancer</a
+                >
+              </li>
+              <li>
+                <a href="prevent.html" class="adjustable_text"
+                  >How is Childhood Cancer Prevented</a>
+              </li>
+            </ul>
           </li>
-          <li class="links-list">
-            <a href="#">About Us</a>
-          </li>
-          <li class="links-list">
-            <a href="#">All About Cancer</a>
-          </li>
-          <li class="links-list">
-            <a class="dropbtn" href="#">Services</a>
-            <!-- <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div> -->
+          <li id="spc">
+            <button
+              class="adjustable_text cnbtn"
+              onclick="window.location.href='contact.html';"
+            >
+              Contact Us
+            </button>
           </li>
         </ul>
       </div>
-      <div class="contact-details">
-        <p>+91 999999999</p>
-        <button>Join Now</button>
-      </div>
-    </div>
+    </nav>
+
+    <script>
+      $(document).ready(function () {
+        $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+          $(this).toggleClass("open");
+        });
+      });
+      let toggle = document.querySelector(".links-toggle");
+      let menu = document.querySelector(".links-menu");
+      toggle.onclick = function () {
+        menu.classList.toggle("active");
+      };
+    </script>
+    <script src="js/index.js"></script>
   </body>
 </html>

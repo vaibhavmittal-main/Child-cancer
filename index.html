@@ -4,54 +4,414 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Child Care</title>
+    <title>Little Warriors</title>
     <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://kit.fontawesome.com/a862feff0b.js" crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
       integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+      referrerpolicy="no-referrer"></script>
+      
     <script src="./js/index.js" defer></script>
     <script>
-      $(function () {
-        $("#navbar").load("nav.html");
-      });
+          $(function () {
+            $("#navbar").load("nav.html");
+          });
+          $(function () {
+            $("#accesibility").load("accesibility.html");
+          });
+         
+          $(function () {
+            $("#dc_main1").load("dc.html");
+          });
+          $(function () {
+            $("#main_footer").load("footer.html");
+          });
+          $(function () {
+            $("#chat").load("chat.html");
+          });
+      
     </script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
   </head>
   <body>
+    
+      <div id="chat"></div>
+     
     <div id="navbar"></div>
+    <div id="accesibility"></div>
+    <div id="links"></div>
 
-    <div class="slider">
-      <div class="slider-main" id="mainSlider">
-        <span class="boxes"></span>
-        <span class="boxes"></span>
-        <span class="boxes"></span>
-        <span class="boxes"></span>
+    <div class="slider grayscale high-contrast">
+      
+    </div>
+
+    <div id="mainabout" class="grayscale high-contrast">
+      <div id="about">
+        <div id="bg"></div>
+            <div id="sec">
+                <div id="sec1">
+                    <div id="dbg">
+
+                    </div>
+                    <img src="images/about1.png" id="dc">
+                </div>
+                <div id="sec2main">
+                <div id="sec2">
+                    <div id="flex1" class="adjustable_text">
+                        <div class="v" id="v1"></div>                       
+                        <p id="head">About Us</p>
+                        <div class="v" id="v2"></div>
+                    </div>
+                    <p id="vvvv" class="adjustable_text">
+                        Empowering children with cancer. Providing emotional support, medical care, education, 
+                        and financial assistance. Dedicated team of 
+                        doctors, nurses, counselors, and volunteers. 
+                        Ensuring no child fights alone. Bringing smiles,
+                        hope, and strength to families. Making a difference in their lives. Our mission is to conquer 
+                        childhood cancer with love and compassion.
+                    </p>
+                     <div class="buttons highlight-links adjustable_text">
+    <a href="about.html"><button class="blob-btn">
+      Learn More
+      <span class="blob-btn__inner">
+        <span class="blob-btn__blobs">
+          <span class="blob-btn__blob"></span>
+          <span class="blob-btn__blob"></span>
+          <span class="blob-btn__blob"></span>
+          <span class="blob-btn__blob"></span>
+        </span>
+      </span>
+    </button></a>
+    <br/>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+        <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+</div>
+              </div>
+              
+            </div>
+        
+    </div>
+    </div>
+   </div>
+    
+     <div class="what-is grayscale high-contrast">
+      <div class="what-is-content fade-in-element">
+
+        <div class="what-is-heading adjustable_text">
+          <span class="whatis-head-span adjustable_text">What is child cancer?</span>
+        </div>
+
+        <div class="what-is-below adjustable_text">
+          <span class="what-is-expln adjustable_text">
+            Child cancer, or pediatric cancer, is a complex and
+            devastating disease affecting children. Here are some
+            key points about child cancer:
+          </span>
+
+          <div class="what-is-definition">
+            <div class="whatis-dfline"></div>
+            <span class="whatis-explnspan adjustable_text">
+              Definition: Child cancer refers to the development of malignant
+              tumors in children under the age of 18.
+            </span>
+          </div>
+
+          <div class="what-is-types">
+            <div class="whatis-dfline"></div>
+            <span class="whatis-explnspan adjustable_text">
+              Types: It encompasses various types of cancer, including leukemia
+              brain tumors, neuroblastoma, Wilms tumor, retinoblastoma,
+              lymphomas, and sarcomas.
+            </span>
+          </div>
+
+          <div class="what-is-types5 whattttt">
+            <div class="whatis-dfline "></div>
+            
+          </div>
+        </div>
+
+      </div>
+
+      <div class="what-is-img">
+        <div class="animation-element bounce-up cf">
+          <div class="subject development">
+           
+            <img src="images/whatis-img.png" class="whatis-img">
+          </div>
+     
+        
+      </div>
       </div>
     </div>
 
-    <!-- <div class="hanging-boxes">
-      <div class="hanging-boxes-ropes">
-        <div class="ropes">
-          <hr />
-          <hr />
-        </div>
-        <div class="ropes">
-          <hr />
-          <hr />
-        </div>
-        <div class="ropes">
-          <hr />
-          <hr />
-        </div>
+
+    <div class="video-section grayscale high-contrast">
+      <div class="video-container">
+        <h2 class="adjustable_text">Welcome To Little Warriors</h2>
+        <p class="adjustable_text">Here we help children to fight with this deadly disease</p>
+        <button class="highlight-links" onclick="window.location.href='about.html';">Learn More</button>
       </div>
-      <div class="hanging-box">
-        <div class="hanging-box-box"></div>
-        <div class="hanging-box-box"></div>
-        <div class="hanging-box-box"></div>
-        git
+      <div class="shadow"></div>
+      <div class="video-video">
+        <video preload autoplay loop muted class="video-main-video">
+          <source data-src="./videos/welcome.mp4" src="./videos/welcome.mp4" type="video/mp4">
+        </video>
       </div>
-    </div> -->
+    </div>
+
+
+    <div id="faqmain1" class="grayscale high-contrast">
+      <div class="faqmain">
+          <div class="faq">
+              <div id="faq-left">
+              
+              <div class="inside">
+                  
+                  <div class="text">
+                      <div id="flex1" class="adjustable_text">
+                          
+                          <p id="head">FAQ</p>
+                          
+                      </div>
+                      <div class="t1">
+                          <p id="t2" class="adjustable_text"><a href="whydo.html" id="t3">Why do kids gets cancer?</a></p>
+                      </div>
+  
+                      <div class="t1">
+                          <p id="t2" class="adjustable_text"><a href="howis.html" id="t3">How is cancer treated?</a></p>
+                      </div>
+  
+                      <div class="t1">
+                          <p id="t2" class="adjustable_text"><a href="aft-treatment.html" id="t3">After treatment of childhood cancer</a></p>
+                      </div>
+                  </div>
+  
+                  <div class="img">
+                      <h1 id="question" class="fade-in-text adjustable_text">?</h1>
+                  </div>
+              </div></div>
+          </div>
+      </div>
+    </div>
+   <div id="dc_main1" class="adjustable_text grayscale high-contrast">
+
+    </div>
+
+  
+    <div class="testimonials grayscale high-contrast">
+      <div class="testimonials-heading">
+          <span class="testi-hd-span adjustable_text">What patients say?</span>
+      </div>
+      
+      <div class="testimonials-sec"></div>
+          <div class="row">
+               <div class="col-md-12">
+
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="cr-btn active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="cr-btn "></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="cr-btn "></li>
+                        </ol>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="row2">
+                              <div class="col-md-4">
+                                  <div class="testi-box">
+
+                                          <img class="testi-bx-img" src="images/testimonials-person.jpg">
+                                          <img class="testi-bx-img2" src="images/ri_double-quotes-l.png">
+                                      
+                                      
+                                      <span class="testi-sp-1 adjustable_text">
+                                        "As a parent of a child with cancer, this website has been a source of hope, support, and reliable information. It has empowered us to make informed decisions about our child's treatment journey.
+                                      </span>
+                                      <span class="testi-sp-2 adjustable_text"> - Gurvinder Singh, Parent</span>
+                                  </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                  <div class="testi-box">
+                                      <img class="testi-bx-img" src="images/testimonials-person2.jpg">
+                                      <img class="testi-bx-img2" src="images/ri_double-quotes-l.png">
+                                  
+                                      <span class="testi-sp-1">
+                                        "I have found support through the community forums on this website. Sharing experiences and knowledge with other parents has made our journey through childhood cancer less isolating.
+                                        </span>
+                                      <span class="testi-sp-2">- Anita Gupta, Parent</span>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+
+                      <div class="carousel-item">
+                          <div class="row2">
+                              <div class="col-md-4">
+                                  <div class="testi-box">
+                                      <img class="testi-bx-img" src="images/testimonials-person3 (2).jpg">
+                                      <img class="testi-bx-img2" src="images/ri_double-quotes-l.png">
+                                  <span class="testi-sp-1">
+                                      "The information and resources provided on this website have been invaluable in guiding our pediatric oncology team. It has helped us deliver the best possible care to our young patients.
+                                    </span>
+                                <span class="testi-sp-2">- Dr. Anjali Gupta</span>
+                                  </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                  <div class="testi-box">
+                                      <img class="testi-bx-img" src="images/testimonials-person6.jpg">
+                                      <img class="testi-bx-img2" src="images/ri_double-quotes-l.png">
+                                  
+                                      <span class="testi-sp-1">
+                                        "The educational materials and survivorship resources available on this website have greatly enhanced our understanding of the unique challenges faced by childhood cancer survivors.
+                                          </span>
+                                      <span class="testi-sp-2"> - Dr. Rakesh Sharma</span>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                          
+                      </div>
+
+                      <div class="carousel-item">
+                          <div class="row2">
+                              <div class="col-md-4">
+                                  <div class="testi-box">
+                                      <img class="testi-bx-img" src="images/testimonials-person5.jpg">
+                                      <img class="testi-bx-img2" src="images/ri_double-quotes-l.png">
+                                  
+                                      <span class="testi-sp-1">
+                                        "The comprehensive and up-to-date content on childhood cancer treatment protocols and emerging therapies has been immensely helpful in my research and clinical practice. 
+                                          </span>
+                                      <span class="testi-sp-2">- Dr. Manish Agarwal</span>
+                                  </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                  <div class="testi-box">
+                                      <img class="testi-bx-img" src="images/testimonials-person4.jpg">
+                                      <img class="testi-bx-img2" src="images/ri_double-quotes-l.png">
+                                  
+                                      <span class="testi-sp-1">
+                                        "As a survivor of childhood cancer, I am grateful for this website's focus on long-term survivorship and psychosocial support.
+                                          </span><br>
+                                      <span class="testi-sp-2">- Aryan Malhotra, Childhood Cancer Survivor
+                              </div>
+
+                          </div>
+
+                          
+                      </div>
+
+                      
+                  </div>
+
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+     
+     
+      
+    
+</div>
+
+<div class="bottom-boxes grayscale high-contrast">
+  <div class="left-box">
+    <h1>We care about you.</h1>
+    <p>Here we help children to fight with this deadly disease.</p>
+    <button onclick="window.href = 'about.html'">Contact Us</button>
+    
+  </div>
+  <div class="right-box">
+  <h1>Connect With Us</h1>
+  <div class="bottom-boxes-social-media-links connect-links">
+    <div class="icon-container" style="background: #FF4343">
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+    <div class="icon-container" style="background: #1F5EAB">
+      <i class="fa-brands fa-facebook-f"></i>
+    </div>
+    <div class="icon-container" style="background: #00771D">
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <div class="icon-container" style="background: #FFC700">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+  </div>
+  </div>
+</div>
+    <div id="main_footer">
+
+    </div> 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+  <script>
+     const fadeTextElements = document.querySelectorAll('.fade-in-text');
+
+function fadeInTextOnScroll() {
+    fadeTextElements.forEach((element) => {
+        const elementPosition = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (elementPosition < windowHeight) {
+            element.classList.add('fade-in');
+        }
+    });
+}
+
+// Trigger animation on initial page load
+fadeInTextOnScroll();
+
+// Trigger animation on scroll
+window.addEventListener('scroll', fadeInTextOnScroll);
+
+
+
+
+
+function isElementInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.left >= 0 &&
+    rect.top >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function fadeInOnScroll() {
+  const fadeElements = document.querySelectorAll('.fade-in-element');
+  
+  fadeElements.forEach(element => {
+    if (isElementInViewport(element)) {
+      element.classList.add('fade-in');
+    }
+  });
+}
+
+window.addEventListener('scroll', fadeInOnScroll);
+  </script>
+  
+  
+  
   </body>
 </html>
